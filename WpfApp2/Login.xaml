@@ -1,0 +1,24 @@
+﻿<Page x:Class="WpfApp2.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Opacity="0.6" ImageSource="/Doc3_page-0001.jpg"/>
+        </Grid.Background>
+        <Label Content="Get Started" HorizontalAlignment="Left" Margin="323,10,0,0" VerticalAlignment="Top" Width="172" FontFamily="MS UI Gothic" FontWeight="Bold" FontSize="30" Height="46" Background="#FFEDF8FA"/>
+        <Label Content="UserName" HorizontalAlignment="Left" Margin="209,79,0,0" VerticalAlignment="Top" Width="118" Height="38" FontFamily="Cascadia Mono SemiBold" FontSize="20"/>
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Foreground="#FFFCFAFA" FontFamily="MS UI Gothic" FontSize="20" Background="#FFEBF0F4" AutomationProperties.Name="txtusername" Margin="209,122,191,0"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="209,178,0,0" VerticalAlignment="Top" Width="118" Height="39" FontFamily="Cascadia Mono SemiBold" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="400" Foreground="#FFFCFAFA" FontFamily="MS UI Gothic" FontSize="20" Background="#FFEBF0F4" AutomationProperties.Name="txtusername" Margin="209,217,0,0"/>
+        <Button Content="LOGIN" HorizontalAlignment="Left" Margin="209,310,0,0" VerticalAlignment="Top" Click="Button_Click" Width="400" Height="41" Background="#FFEBD1F6" FontWeight="Bold" FontSize="25" FontFamily="Monotype Corsiva"/>
+        <Button Content="LOGIN" HorizontalAlignment="Left" Margin="209,310,0,0" VerticalAlignment="Top" Click="Button_Click" Width="400" Height="41" Background="#FFEBD1F6" FontWeight="Bold" FontSize="25" FontFamily="Monotype Corsiva"/>
+
+    </Grid>
+</Page>
